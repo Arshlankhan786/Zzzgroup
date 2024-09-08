@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26058820"))
 API_HASH = os.environ.get("API_HASH", "cf34db4ed69493d377a2516056711cb6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002124958065"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001900093725"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5683891175"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Order:order@cluster0.aitj
 DB_NAME = os.environ.get("DATABASE_NAME", "zzzgroup")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001887207978"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
